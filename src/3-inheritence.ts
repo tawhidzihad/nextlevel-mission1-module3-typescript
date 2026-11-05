@@ -52,4 +52,4 @@ class Manager extends Employee {
 }
 
 const manager = new Manager("Zihad", 10000, 20);
-console.log(manager.describeManager());
+// console.log(manager.describeManager());
