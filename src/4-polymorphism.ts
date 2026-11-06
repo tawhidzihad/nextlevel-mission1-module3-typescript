@@ -47,10 +47,10 @@ class Developer extends Employee {
 }
 
 const employee = new Employee("Tawhid", 2000);
-console.log(employee.calculatePay(0.1));
+// console.log(employee.calculatePay(0.1));
 
 const manager = new Manager("Zihad", 10000);
-console.log("Manager =>", manager.calculatePay());
+// console.log("Manager =>", manager.calculatePay());
 
 const develoepr = new Developer("Tawhid Zihad", 200, "FullStack Develoepr");
-console.log(develoepr.calculatePay(0.1));
+// console.log(develoepr.calculatePay(0.1));
